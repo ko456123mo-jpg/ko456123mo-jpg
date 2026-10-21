@@ -12,6 +12,8 @@
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
   <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali"/>
   <img src="https://img.shields.io/badge/OWASP_MASVS-8B5CF6?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP MASVS"/>
 </p>
@@ -70,6 +72,17 @@
 
 ## 🗂 مشاريع أخرى
 
+### [ATHAR — منصة التحقيقات الجنائية الرقمية](https://github.com/ko456123mo-jpg/ATHAR)
+منصة كاملة لإدارة التحقيق الجنائي من فتح القضية إلى التقرير القابل للمراجعة:
+تخزين خاص للأدلة، بصمات SHA-256، سلسلة حفظ مترابطة هاشياً، ومهام تحليل تُنفَّذ
+داخل **CAINE 14.0** معزولة على VirtualBox.
+
+**ما يميّزها:** الـAgent لا يستقبل أمر shell إطلاقاً — قائمة بيضاء صارمة على
+`(tool_id, operation_key)` مع `shell=False` ومسار ثنائي ثابت ورفض أي مسار يخرج عن
+مجلد الدليل للقراءة فقط.
+
+`Laravel 13` `PHP 8.3` `MySQL` `Redis` `CAINE` `TShark` `Python` · 52 اختباراً · واجهة عربية RTL · CI أخضر
+
 ### [SentinelAI — Threat Detection & Response](https://github.com/ko456123mo-jpg/SentinelAI)
 منصة كشف واستجابة موحّدة: تصنيف تدفقات الشبكة، كشف شذوذ بلا تصنيف، كشف تصيّد نصي،
 تحديد عائلة برمجية خبيثة من صور بايت، وسياسة استجابة معزّزة — مدرَّبة على
@@ -91,7 +104,7 @@ CICIDS2017 وMalimg وUCI SMS Spam.
 | **أمن تطبيقات الجوال** | تحليل ساكن وديناميكي · JADX · MobSF · Frida · Objection · OWASP MASVS/MASTG |
 | **الجنائيات الرقمية** | سلسلة حفظ · بصمات · استخراج بيانات مخفية · تحليل PCAP · تقارير منزوعة البيانات |
 | **وكلاء LLM** | LangGraph · تنسيق متعدد الوكلاء · RAG · حماية من حقن البرومبت |
-| **هندسة البرمجيات** | FastAPI · عقود Pydantic · SQLAlchemy · Docker · اختبارات آلية · توثيق ثنائي اللغة |
+| **هندسة البرمجيات** | FastAPI · Laravel · عقود Pydantic · SQLAlchemy · MySQL/Redis · Docker · اختبارات آلية · CI · توثيق ثنائي اللغة |
 | **تعلّم الآلة التطبيقي** | تصنيف · كشف شذوذ · CNN · NLP · تعلّم معزّز |
 
 ---
